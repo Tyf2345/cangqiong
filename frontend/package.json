@@ -1,0 +1,20 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev:react-admin": "pnpm --filter react-admin dev"
+  },
+  "devDependencies": {
+    "less": "^4.4.2",
+    "tailwindcss": "^4.1.16"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1"
+  },
+  "peerDependencies": {
+    "@ant-design/icons": "~5.6.1",
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "antd": "^5.28.0"
+  }
+}
